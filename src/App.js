@@ -4,7 +4,7 @@ import {NavBar} from './Components/navbar/NavBar';
 
 function App() {
   return (
-      <NavBar bgImg={'./Nature.jpg'}/>
+      <NavBar bgImg={'GoldenGateBridge.jpg'}/>
   );
 }
 

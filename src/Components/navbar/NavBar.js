@@ -3,10 +3,10 @@ import './NavBar.css';
 
 
 export class NavBar extends React.Component {
+
   render() {
-    console.log(`url(${this.props.bgImg})`);
     return (
-      <div className="bg-img" style={{ backgroundImage: `url(./Nature.jpg)`}}>
+      <div className="bg-img" style={{backgroundImage: 'url(' + require(`../../Images/${this.props.bgImg}`) + ')'}}>
         <div className="container">
           <ul className="topnav">
             <li>Home</li>
@@ -15,6 +15,8 @@ export class NavBar extends React.Component {
             <li>Specials</li>
             <li>Directions</li>
             <li>Local Guide</li>
+            <li>Contact Us</li>
+            <li id="book-button">Book Now</li>
           </ul>
         </div>
       </div>
