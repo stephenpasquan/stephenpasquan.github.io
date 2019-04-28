@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import {NavBar} from './Components/navbar/NavBar';
+import { HomePage } from './Components/homePage/homePage';
 
 function App() {
   return (
-      <NavBar bgImg={'GoldenGateBridge.jpg'}/>
+    <HomePage />
   );
 }
 

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600");
+.flex-container {
+  padding: 80px 80px 0px 80px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.flex-container div {
+  flex-basis: 31.5%;
+  text-align: center;
+}
+.flex-container div h1 {
+  font-family: "Nunito", sans-serif;
+}
+.flex-container div img {
+  height: 75px;
+}
+
+/*# sourceMappingURL=homePage.css.map */
