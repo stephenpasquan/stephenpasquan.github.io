@@ -1,18 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
 .flex-container {
-  padding: 80px 80px 0px 80px;
+  padding: 72px 80px 0px 80px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 
-  div {
+  .column-div {
     flex-basis: 31.5%;
     text-align: center;
-    h1 {
+    min-width: 350px;
+    .home-amenities {
       font-family: 'Nunito', sans-serif;
+      opacity: 0.6;
     }
-    img {
+    .icon-image {
       height: 75px;
+      opacity: 0.6;
     }
+  }
+}
+#icon8-ref{
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 872px) {
+  .flex-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .column-div {
+    flex-basis: 50%;
+    margin-bottom: 60px;
   }
 }
