@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,800");
 .bg-img {
   min-height: 450px;
-  min-width: 870px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-color: green;
 }
 
 .nav-container {
@@ -19,7 +19,7 @@
 .topnav {
   overflow: hidden;
 }
-.topnav .navItem {
+.topnav li {
   font-family: "Nunito", sans-serif;
   float: left;
   color: white;
@@ -30,7 +30,7 @@
   list-style-type: none;
   font-weight: 600;
 }
-.topnav .navItem:hover {
+.topnav li:hover {
   color: orange;
 }
 
