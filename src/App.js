@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Route } from 'react-router-dom'
-import { HomePage } from './Components/homePage/homePage';
+import { HomePage } from './Components/HomePage/HomePage';
 import { LocalGuide } from './Components/LocalGuide/LocalGuide';
 import { ContactUs } from './Components/ContactUs/ContactUs';
 import {AboutUs} from './Components/AboutUs/AboutUs';

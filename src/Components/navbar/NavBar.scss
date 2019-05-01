@@ -1,58 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,600,800');
 
-.bg-img {
-  min-height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-color: green;
-}
-
-
-.topnav {
-  overflow: hidden;
-  li
-  }
-}
-
-#book-button {
+.navLink{
+  font-family: 'Nunito', sans-serif;
+  color: white !important;
   text-decoration: none;
-  background-color: rgba(255,192,77,1);
-  text-align: center;
-  border-color: rgb(255,218,185);
-  border-style: solid;
-  border-width: 2.5px;
-  color: white;
+  font-size: 15px;
+  list-style-type: none;
+  font-weight: 800;
+  text-align: right !important;
+
+
   &:hover {
-    background-color: orange;
+    color: orange !important;
   }
-}
-
-.button-container {
-  position: absolute;
-  bottom: 10px;
-  left:0;
-  right:0;
-  margin: 0 auto;
-  width: 200px;
-  background-color: rgba(255,192,77,1);
-  text-align: center;
-  border-color: rgb(255,218,185);
-  border-style: solid;
-  border-width: 2.5px;
-  &:hover {
-    background-color: orange;
-  }
-}
-.button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 28px;
-  color: white;
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 500px){
-
 }

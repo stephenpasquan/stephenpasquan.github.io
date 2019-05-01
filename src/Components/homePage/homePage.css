@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600");
 .flex-container {
-  padding: 72px 80px 0px 80px;
+  padding: 52px 80px 0px 80px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -35,4 +35,4 @@
   }
 }
 
-/*# sourceMappingURL=homePage.css.map */
+/*# sourceMappingURL=HomePage.css.map */
