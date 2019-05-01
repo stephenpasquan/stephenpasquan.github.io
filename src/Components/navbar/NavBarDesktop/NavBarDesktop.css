@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,800");
+.navLink {
+  font-family: "Nunito", sans-serif;
+  color: white !important;
+  text-decoration: none;
+  font-size: 15px;
+  list-style-type: none;
+  font-weight: 800;
+}
+.navLink:hover {
+  color: orange !important;
+}
+
+/*# sourceMappingURL=NavBarDesktop.css.map */

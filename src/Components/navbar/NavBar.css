@@ -8,14 +8,6 @@
   background-color: green;
 }
 
-.nav-container {
-  position: absolute;
-  top: 0;
-  right: 5px;
-  width: auto;
-  height: auto;
-}
-
 .topnav {
   overflow: hidden;
 }
