@@ -2,11 +2,11 @@
 
 .bg-img {
   min-height: 450px;
-  min-width: 870px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-color: green;
 }
 
 .nav-container{
@@ -19,7 +19,7 @@
 
 .topnav {
   overflow: hidden;
-  .navItem {
+  li {
       font-family: 'Nunito', sans-serif;
       float: left;
       color: white;
@@ -70,4 +70,8 @@
   font-size: 28px;
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 500px){
+
 }
