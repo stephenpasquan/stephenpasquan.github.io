@@ -1,23 +1,13 @@
 import React from 'react';
-import {NavBar} from '../navbar/NavBar';
-import './homePage.css';
+import './HomePage.css';
+import { PhotoNav } from '../PhotoNav/PhotoNav';
 
 // MAKE SURE TO CREDIT ICON8!!!!!!!!!!! (icons8.com)
 export class HomePage extends React.Component {
   render() {
-
-    const pageInfo = {
-      button: {
-        status: true,
-        buttonText: "Book Now",
-        buttonLink: "https://book.bookingcenter.com/02/?site=COLINN"
-      },
-      currPage: "homepage",
-    };
-
     return (
-      <div className="body">
-        <NavBar bgImg={'GoldenGateBridge.jpg'} pageInfo={pageInfo}/>
+      <div>
+        <PhotoNav bgImg={'GoldenGateBridge.jpg'} />
         <div className={"flex-container"}>
           <div className={"column-div"}>
             <img src={require("../../Images/Wifi.png")} alt="wifi" className={"icon-image"}/>
