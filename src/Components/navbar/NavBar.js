@@ -43,7 +43,7 @@ export class NavBar extends React.Component {
               <NavLink className={"navLink"} href="/contactus">Contact Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className={"navLink"} href="/localguide">Local Guide</NavLink>
+              <NavLink className={"navLink"} href="/explore">Explore</NavLink>
             </NavItem>
             <NavItem>
               <NavLink className={"navLink"} id={"booknow-desktop"} href="https://book.bookingcenter.com/02/?site=COLINN">Book Now</NavLink>

@@ -15,7 +15,7 @@ export class HomePage extends React.Component {
           </div>
           <div className={"column-div"}>
             <img src={require("../../Images/Tv.png")} alt="TV"  className={"icon-image"}/>
-            <h1 className={"home-amenities"}>Complementary Satellite TV and HBO In Every Room</h1>
+            <h1 className={"home-amenities"}>Complementary Cable TV and HBO In Every Room</h1>
           </div>
           <div className={"column-div"}>
             <img src={require("../../Images/Parking.png")} alt="Parking" className={"icon-image"}/>
