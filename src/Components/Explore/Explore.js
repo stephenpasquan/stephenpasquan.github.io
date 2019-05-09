@@ -1,7 +1,8 @@
 import React from 'react';
 import { PhotoNav } from '../PhotoNav/PhotoNav';
+import './Explore.css';
 
-export class LocalGuide extends React.Component {
+export class Explore extends React.Component {
   render() {
     return (
       <div>
