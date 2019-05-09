@@ -1,6 +1,7 @@
 import React from 'react';
 import './PhotoNav.css';
-import {NavBar} from '../NavBar/NavBar'
+import {NavBar} from '../NavBar/NavBar';
+import {PhotoCarousel} from '../PhotoCarousel/PhotoCarousel';
 
 export class PhotoNav extends React.Component {
   constructor(props) {
@@ -19,8 +20,11 @@ export class PhotoNav extends React.Component {
   }
   render() {
     return (
-      <div className={"bg-img"} style={{backgroundImage: 'url(' + require(`../../Images/${this.props.bgImg}`) + ')'}}>
-         <NavBar />
+      <div>
+        <div  className={"NavBar"}>
+          <NavBar />
+        </div>
+        <PhotoCarousel className={"bg-img"} />
       </div>
     )
   }
