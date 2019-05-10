@@ -1,6 +1,5 @@
 import React from 'react';
 import { PhotoNav } from '../PhotoNav/PhotoNav';
-import {map} from '../../Images/Map.png';
 import './Explore.css';
 
 export class Explore extends React.Component {
