@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700");
 $topMargin: 40px;
-$headerOpacity: 0.75;
+$headerOpacity: 0.6;
 $contentOpacity: 0.70;
 .contactContainer {
   display: flex;
@@ -19,8 +19,7 @@ $contentOpacity: 0.70;
   font-family: 'Domine', Serif;
   .address {
     font-weight: 400px;
-    opacity: .75;
-    color: black;
+    color: rgba(102, 102, 102,0.75);
   }
 }
 
@@ -33,19 +32,17 @@ $contentOpacity: 0.70;
 .phoneNumber {
   font-family: 'Domine', Serif;
   font-weight: 400;
-  opacity: $contentOpacity;
-  color: black;
+  color: rgba(102, 102, 102,0.75);
   font-size: 1.9rem;
   .phoneNumberLink {
-    color: black;
+    color: rgba(102, 102, 102,0.75);
   }
 }
 
 .contactTimes {
   font-family: 'Domine', Serif;
   font-weight: 400;
-  color: black;
-  opacity: $contentOpacity;
+  color: rgba(102, 102, 102,0.75);
 }
 
 .emailContainer{

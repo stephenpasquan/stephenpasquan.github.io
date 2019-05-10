@@ -7,8 +7,7 @@
 }
 .content .text {
   flex-basis: 47%;
-  background-color: red;
-  margin: 5px auto 0 auto;
+  margin: 45px auto 0 auto;
 }
 .content .image {
   flex-basis: 47%;
@@ -23,6 +22,15 @@
   font-family: "Domine", Serif;
 }
 
+.listContainer {
+  padding-left: 0;
+  margin-top: 16px;
+}
+
+.listItem {
+  list-style: none;
+}
+
 @media only screen and (max-width: 768px) {
   .text {
     min-width: 97%;
@@ -30,6 +38,7 @@
 
   .image {
     min-width: 97%;
+    margin-top: 30px;
   }
 }
 
