@@ -17,33 +17,30 @@
 }
 .addressContainer .address {
   font-weight: 400px;
-  opacity: 0.75;
-  color: black;
+  color: rgba(102, 102, 102, 0.75);
 }
 
 .contactHeader {
   font-family: "Domine", Serif;
   font-weight: 700;
   color: black;
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .phoneNumber {
   font-family: "Domine", Serif;
   font-weight: 400;
-  opacity: 0.7;
-  color: black;
+  color: rgba(102, 102, 102, 0.75);
   font-size: 1.9rem;
 }
 .phoneNumber .phoneNumberLink {
-  color: black;
+  color: rgba(102, 102, 102, 0.75);
 }
 
 .contactTimes {
   font-family: "Domine", Serif;
   font-weight: 400;
-  color: black;
-  opacity: 0.7;
+  color: rgba(102, 102, 102, 0.75);
 }
 
 .emailContainer {
@@ -61,7 +58,7 @@
 }
 .emailContainer .contactEmail .contactEmailLink {
   color: black;
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 /*# sourceMappingURL=ContactUs.css.map */

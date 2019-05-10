@@ -94,7 +94,7 @@ export class PhotoCarousel extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+
         </CarouselItem>
       );
     });
@@ -107,7 +107,7 @@ export class PhotoCarousel extends Component {
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} ontou />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
     );
