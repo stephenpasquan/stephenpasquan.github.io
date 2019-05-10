@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Domine:400,700");
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content .text {
+  flex-basis: 47%;
+  background-color: red;
+  margin: 5px auto 0 auto;
+}
+.content .image {
+  flex-basis: 47%;
+  margin: 5px auto 0 auto;
+}
+.content .image .map {
+  max-width: 100%;
+  max-height: 100%;
+}
 
+.headers {
+  font-family: "Domine", Serif;
+}
 
-/*# sourceMappingURL=LocalGuide.css.map */
+@media only screen and (max-width: 768px) {
+  .text {
+    min-width: 97%;
+  }
+
+  .image {
+    min-width: 97%;
+  }
+}
+
+/*# sourceMappingURL=Explore.css.map */
