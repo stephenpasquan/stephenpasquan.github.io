@@ -29,7 +29,7 @@ export class NavBar extends React.Component {
     return (
   <div>
     <Navbar color="faded" light expand="md">
-      <NavbarBrand href="/">LOGO</NavbarBrand>
+      <NavbarBrand href="/"><img src={require("../../Images/logo.png")} alt="The Marin Lodge"/></NavbarBrand>
       <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>

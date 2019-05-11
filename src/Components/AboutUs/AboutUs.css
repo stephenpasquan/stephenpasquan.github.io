@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700");
 .headerContainer {
-  background-color: rgba(0, 119, 210, 0.4);
   margin: 0 auto;
 }
 
 .textContainer {
-  background-color: rgba(0, 119, 210, 0.3);
   margin: 0 auto;
 }
 
@@ -14,33 +12,37 @@
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
+  opacity: 0.9;
+  padding: 55px 0px 10px 0px;
 }
 
 .text {
   font-family: "Domine", Serif;
   text-align: center;
+  opacity: 0.8;
   margin: 0 auto;
+  padding: 10px 180px 20px 180px;
 }
 
-.amenitiesHeading {
-  font-family: "Domine", Serif;
+/*.amenitiesHeading {
+  font-family: 'Domine', Serif;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
   margin: 0 auto;
-}
-
+}*/
 .amenitiesList {
   font-family: "Domine", Serif;
   font-weight: 700;
   font-size: 25px;
+  opacity: 0.9;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   list-style: none;
   width: 100%;
-  padding: 0;
+  padding: 20px 20px 45px 20px;
   margin: 0 auto;
 }
 
@@ -60,6 +62,10 @@
   .amenity {
     flex-basis: 100%;
     margin-bottom: 25px;
+  }
+
+  .text {
+    padding: 0px 60px 20px 60px;
   }
 }
 

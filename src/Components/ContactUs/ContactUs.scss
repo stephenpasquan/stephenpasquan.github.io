@@ -8,6 +8,7 @@ $contentOpacity: 0.70;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
+  padding: 0px 0px 0px 0px;
 }
 
 .phoneContainer {
@@ -56,6 +57,7 @@ $contentOpacity: 0.70;
     font-family: 'Domine', Serif;
     font-weight: 700;
     font-size: 2.2rem;
+    padding: 0px 0px 20px 0px;
     .contactEmailLink{
       color: black;
       opacity: $headerOpacity;
