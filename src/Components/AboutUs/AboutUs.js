@@ -12,14 +12,17 @@ export class AboutUs extends React.Component {
           <h1 className="header">Location</h1>
         </div>
         <div className="textContainer">
-          <p className="text">With our central location, you are just minutes from wine country, San Francisco, and many local landmarks</p>
+          <p className="text">
+              Fall in love with the best of Marin County. With our central location, we are just minutes away from downtown San Francisco, wine country, and all
+              of the beauty and adventure the Bay Area has to offer.
+             </p>
         </div>
 
         <div className="headerContainer">
           <h1 className="header">Value</h1>
         </div>
         <div className="textContainer">
-          <p className="text">At the Marin Lodge we believe in hotel quality with motel prices. You'll find that for the price, there is no better value</p>
+          <p className="text">At the Marin Lodge we believe in high quality at affordable prices.</p>
         </div>
 
         <div className="headerContainer">
@@ -27,7 +30,8 @@ export class AboutUs extends React.Component {
         </div>
         <div className="textContainer">
           <p className="text">
-          Being a family owned company for over 60 years, we have learned that hospitality and guest satisfaction is our highest priority
+              The Marin Lodge has been family owned and operated for over 60 years. Our highest priority is ensuring your satisfaction. We can't wait to
+              welcome you to Marin!
           </p>
         </div>
 
@@ -36,20 +40,17 @@ export class AboutUs extends React.Component {
         </div>
         <div className="textContainer">
           <p className="text">
-          We are a non-smoking hotel with several different room  layouts, so whether you are traveling with the family or for business we have a room for you
+              Whether you are traveling with family or visiting on business, we have a room for you! Our amenities include:
           </p>
-        </div>
-        <div className="headerContainer">
-          <h1 className="amenitiesHeading">Amenities Include:</h1>
         </div>
         <div className="textContainer">
           <ul className="amenitiesList">
-            <li className="amenity">Free Wifi</li>
-            <li className="amenity">Cable Television With HBO</li>
-            <li className="amenity">Complementary Parking</li>
-            <li className="amenity">Refrigerator, Microwave, and Wolfgang Puck Coffee In Every Room</li>
-            <li className="amenity">All Non-Smoking Rooms</li>
-            <li className="amenity">Free Starbucks Coffee and Baked Goods In The Morning</li>
+            <li className="amenity">Free WiFi</li>
+            <li className="amenity">Cable television with HBO</li>
+            <li className="amenity">Complimentary parking</li>
+            <li className="amenity">Refrigerator, microwave, and Wolfgang Puck coffee in every room</li>
+            <li className="amenity">All non-smoking rooms</li>
+            <li className="amenity">Free Starbucks coffee & baked goods each morning</li>
           </ul>
         </div>
        </div>
